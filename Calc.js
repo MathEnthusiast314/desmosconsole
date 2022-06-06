@@ -18,3 +18,6 @@ Calc.getExpressions()
 Calc.removeExpressions(List of expression objects you want to delete)
 //See hidden expressions or folders. Also useful to quickly hide entire folders through the GUI
 Calc.updateSettings({administerSecretFolders: true});
+//Get render time
+console.time('rendertime');
+Calc.asyncScreenshot(null, () => console.timeEnd('rendertime'))
