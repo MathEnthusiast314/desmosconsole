@@ -1,4 +1,4 @@
-//Example: https://www.desmos.com/calculator/dmzneyhpjy
+//Example: https://www.desmos.com/calculator/dmzneyhpjy... look inside the folders ;)
 state=Calc.getState()
 for(i=0; i<(state.expressions.list).length; i++){
 
