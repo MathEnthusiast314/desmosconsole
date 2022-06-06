@@ -16,3 +16,9 @@ m=Calc.HelperExpression({ latex: 'm' });
 m.observe('numericValue', function() {
   console.log(m.numericValue);
 });
+//To hide an expression in 'state'
+state.expressions.list[index].secret = true;
+//To set the exact speed of a slider
+state["expressions"]["list"][index].slider.animationPeriod = milliseconds to reach min bound→max bound
+//To set the color of an expression
+state["expressions"]["list"][index].color = "purple"
